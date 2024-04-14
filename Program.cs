@@ -9,7 +9,7 @@ int frames = 0;
 
 if (RuntimeInformation.ProcessArchitecture != Architecture.Arm64)
 {
-    Console.WriteLine("Not running on a PI...  Idiot!");
+    Console.WriteLine("Not running on a PI...!");
     return;
 }
 
